@@ -1,23 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Nav from './Nav';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <Nav/>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+          <p className="info">
+            Welcome to the Rising Strong app, here to help you navigate your emotional experience!
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Let's get you back on your feet!
           </a>
         </header>
       </div>

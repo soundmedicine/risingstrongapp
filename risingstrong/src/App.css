@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 25s linear;
   height: 40vmin;
 }
 
@@ -16,17 +16,33 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20vh;
+}
+
+nav {
+  background-color: #282c34;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.info {
+  font-size: 15px;
+}
+
+.brand-logo {
+  font-size: 35px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: cornflowerblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  color: cornflowerblue;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
 }
+
+.tab {
+  font: Roboto;
+}
+
