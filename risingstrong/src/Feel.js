@@ -16,6 +16,7 @@ export default class Feel extends Component {
           <li><button className="feel">resentful</button></li>
           <li><button className="feel">sad</button></li>
         </ul>
+        <h2>And what is the story you're telling yourself?</h2>
       </div>
     )
   }

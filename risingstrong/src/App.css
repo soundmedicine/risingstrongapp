@@ -19,10 +19,13 @@ nav {
   font-family: 'Permanent Marker', cursive;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Permanent Marker', cursive;
 }
 
+h2 {
+  font-size: 5vh;
+}
 .info {
   font-size: 15px;
 }
