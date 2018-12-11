@@ -6,16 +6,15 @@ export default class Feel extends Component {
     return (
       <div className="feel">
         { this.props.children }
-        <h1>I feel ...</h1>
-        <ul>
-          <li><button>afraid</button></li>
-          <li><button>alone</button></li>
-          <li><button>angry</button></li>
-          <li><button>confused</button></li>
-          <li><button>hurt</button></li>
-          <li><button>resentful</button></li>
-          <li><button>sad</button></li>
-          
+        <h1>How are you feeling?</h1>
+        <ul className="feelMenu">
+          <li><button className="feel">afraid</button></li>
+          <li><button className="feel">alone</button></li>
+          <li><button className="feel">angry</button></li>
+          <li><button className="feel">confused</button></li>
+          <li><button className="feel">hurt</button></li>
+          <li><button className="feel">resentful</button></li>
+          <li><button className="feel">sad</button></li>
         </ul>
       </div>
     )
