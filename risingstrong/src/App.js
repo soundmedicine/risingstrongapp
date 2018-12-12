@@ -3,28 +3,34 @@ import Nav from './Nav';
 import Feel from './Feel';
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      toggleFeel: false
+    }
+  }
+
+  toggleViewFeel = () => {
+    this.setState({
+      toggleFeel: true
+    })
+  }
   render() {
     return (
       <div className="App">
-      <Nav/>
+      <Nav
+        toggleFeel={this.toggleViewFeel}
+      />
         <header className="App-header">
           <p className="info">
             Welcome to the Rising Strong app, here to help you navigate your emotional experience!
           </p>
-          <a
-            href=""
-            className="App-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Let's get you back on your feet!
-          </a>
+          <p>Let's get you back on your feet!</p>
         </header>
-        <Feel/>
+        {this.state.toggleFeel && <Feel/>}
       </div>
     );
   }
 }
 
-export default App;

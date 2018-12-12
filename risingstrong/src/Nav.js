@@ -12,7 +12,7 @@ export default class Nav extends Component {
         <div className="nav-content center">
           <ul className="tabs tabs-transparent">
             <li className="tab">
-              <a onClick={this.props.toggleSearch}>
+              <a onClick={this.props.toggleFeel}>
                 I Feel ...
               </a>
             </li>
