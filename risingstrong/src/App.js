@@ -16,6 +16,7 @@ export default class App extends Component {
       toggleFeel: true
     })
   }
+  
   render() {
     return (
       <div className="App">
